@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "KAI - Arlecchino Mode",
+    "version": "1.0",
+    "description": "Изменяет визуальный стиль сайта kai.ru на кастомный (персонаж Арлекино из Genshin Impact).",
+    "icons": { "128": "images/plugin_logo.png" },
+    "permissions": [ "storage" ],
+    "web_accessible_resources": [
+        {
+        "resources": [ "images/icon_on.png", 
+                        "images/icon_off.png"
+                      ],
+        "matches": [ "https://kai.ru/*", "https://abiturientu.kai.ru/*" ]
+        }
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://kai.ru/*", "https://abiturientu.kai.ru/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
