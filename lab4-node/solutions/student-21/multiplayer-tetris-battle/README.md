@@ -70,7 +70,7 @@
 
 При первом запуске бот приветствует пользователя.
 
-![START](src/images/start.png)
+![START](images/start.png)
 
 ---
 
@@ -78,7 +78,7 @@
 
 Демонстрация вывода правил игры.
 
-![RULES](src/images/rules.png)
+![RULES](images/rules.png)
 
 ---
 
@@ -86,7 +86,7 @@
 
 Пример отображения пустого игрового поля.
 
-![FIELD](src/images/field.png)
+![FIELD](images/field.png)
 
 ---
 
@@ -94,4 +94,4 @@
 
 Пример вывода случайной фигуры тетрамино.
 
-![NEXT_TETRAMINO](src/images/next_tetramino.png)
+![NEXT_TETRAMINO](images/next_tetramino.png)
